@@ -1,0 +1,14 @@
+# pycharm
+.idea/
+
+# virtualenv
+venv/
+
+# static files
+static/
+
+# python
+__pycache__
+
+# django
+migrations/
