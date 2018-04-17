@@ -1,0 +1,575 @@
+[
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add Theme",
+        "content_type": [
+            "admin_interface",
+            "theme"
+        ],
+        "codename": "add_theme"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change Theme",
+        "content_type": [
+            "admin_interface",
+            "theme"
+        ],
+        "codename": "change_theme"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete Theme",
+        "content_type": [
+            "admin_interface",
+            "theme"
+        ],
+        "codename": "delete_theme"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add \u51fa\u5e93",
+        "content_type": [
+            "app",
+            "houseexport"
+        ],
+        "codename": "add_houseexport"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change \u51fa\u5e93",
+        "content_type": [
+            "app",
+            "houseexport"
+        ],
+        "codename": "change_houseexport"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete \u51fa\u5e93",
+        "content_type": [
+            "app",
+            "houseexport"
+        ],
+        "codename": "delete_houseexport"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add \u7269\u6599",
+        "content_type": [
+            "app",
+            "houseimport"
+        ],
+        "codename": "add_houseimport"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change \u7269\u6599",
+        "content_type": [
+            "app",
+            "houseimport"
+        ],
+        "codename": "change_houseimport"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete \u7269\u6599",
+        "content_type": [
+            "app",
+            "houseimport"
+        ],
+        "codename": "delete_houseimport"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add \u51fa\u5e93",
+        "content_type": [
+            "app",
+            "linkman"
+        ],
+        "codename": "add_linkman"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change \u51fa\u5e93",
+        "content_type": [
+            "app",
+            "linkman"
+        ],
+        "codename": "change_linkman"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete \u51fa\u5e93",
+        "content_type": [
+            "app",
+            "linkman"
+        ],
+        "codename": "delete_linkman"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add \u8ba2\u5355",
+        "content_type": [
+            "app",
+            "orderform"
+        ],
+        "codename": "add_orderform"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change \u8ba2\u5355",
+        "content_type": [
+            "app",
+            "orderform"
+        ],
+        "codename": "change_orderform"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete \u8ba2\u5355",
+        "content_type": [
+            "app",
+            "orderform"
+        ],
+        "codename": "delete_orderform"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add \u4ed3\u5e93",
+        "content_type": [
+            "app",
+            "warehouse"
+        ],
+        "codename": "add_warehouse"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change \u4ed3\u5e93",
+        "content_type": [
+            "app",
+            "warehouse"
+        ],
+        "codename": "change_warehouse"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete \u4ed3\u5e93",
+        "content_type": [
+            "app",
+            "warehouse"
+        ],
+        "codename": "delete_warehouse"
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Employee",
+        "permissions": [
+            [
+                "add_houseexport",
+                "app",
+                "houseexport"
+            ],
+            [
+                "change_houseexport",
+                "app",
+                "houseexport"
+            ],
+            [
+                "delete_houseexport",
+                "app",
+                "houseexport"
+            ],
+            [
+                "add_houseimport",
+                "app",
+                "houseimport"
+            ],
+            [
+                "change_houseimport",
+                "app",
+                "houseimport"
+            ],
+            [
+                "delete_houseimport",
+                "app",
+                "houseimport"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Staff",
+        "permissions": [
+            [
+                "add_linkman",
+                "app",
+                "linkman"
+            ],
+            [
+                "change_linkman",
+                "app",
+                "linkman"
+            ],
+            [
+                "delete_linkman",
+                "app",
+                "linkman"
+            ],
+            [
+                "add_orderform",
+                "app",
+                "orderform"
+            ],
+            [
+                "change_orderform",
+                "app",
+                "orderform"
+            ],
+            [
+                "delete_orderform",
+                "app",
+                "orderform"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$XDdKPciDs1Rf$NvwTB00qxuFBmC8To11X1S2XAQeibDKY9taHn/E1+lM=",
+        "last_login": "2018-04-17T14:12:50.204Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-04-14T03:30:09.172Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$rfFeQQEZGRJy$vKj8Sl1a0Pl5V6gmwccJ4NH1sdlcKLVkuDanwg891nM=",
+        "last_login": "2018-04-16T09:19:25.433Z",
+        "is_superuser": false,
+        "username": "James",
+        "first_name": "Bond",
+        "last_name": "James",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-04-16T09:15:00Z",
+        "groups": [
+            [
+                "Employee"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$cvCDDmjo6Ykh$nWKl0X9Hx52a8nbFgld5o/lgHBye/w67aUUodS8AkDI=",
+        "last_login": "2018-04-17T14:16:07.412Z",
+        "is_superuser": false,
+        "username": "Yui",
+        "first_name": "Yui",
+        "last_name": "Aragaki",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-04-16T09:17:00Z",
+        "groups": [
+            [
+                "Staff"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$pe0j1QLNxA5E$FVYHDiUSGB/El0JAKNISmCxzRI/3E6JwRPWv8ty/DgQ=",
+        "last_login": "2018-04-17T13:09:50.102Z",
+        "is_superuser": false,
+        "username": "Tom",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-04-17T13:08:00Z",
+        "groups": [
+            [
+                "Employee"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$djBrzJ1hZE9S$9Sy0J6uXVuooWMYD8BE+/cQarOd9+e1C9l+TbTZ5hy8=",
+        "last_login": "2018-04-17T14:30:56.197Z",
+        "is_superuser": false,
+        "username": "Jerry",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-04-17T13:09:00Z",
+        "groups": [
+            [
+                "Staff"
+            ]
+        ],
+        "user_permissions": []
+    }
+}
+]
